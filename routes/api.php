@@ -16,6 +16,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('family', [familyController::class, 'index']);
+Route::get('family/anak', [familyController::class, 'anak']);
+Route::get('family/cucuPerempuan', [familyController::class, 'cucuPerempuan']);
+Route::get('family/cucuLaki', [familyController::class, 'cucuLaki']);
 
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
