@@ -2,7 +2,9 @@ Panduan Instalasi TestBackend Laravel
 
 1. Download/Clone Project
 2. composer install
-3. Run Project (php artisan serv)
+3. seting database name di ENV
+4. Migrate Database dan juga seeder (php artisan migrate --seed)
+5. Run Project (php artisan serv)
 
 
 Terdapat 3 links pada bagian navbar yaitu list, query, chart
